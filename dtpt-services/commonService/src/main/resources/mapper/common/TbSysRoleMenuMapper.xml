@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.common.TbSysRoleMenuMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.common.TbSysRoleMenu" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="ROLE_MENU_ID" property="roleMenuId" jdbcType="VARCHAR" />
+    <result column="ROLE_ID" property="roleId" jdbcType="VARCHAR" />
+    <result column="MENU_ID" property="menuId" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

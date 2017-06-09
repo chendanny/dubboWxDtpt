@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.common.TbSysMenuMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.common.TbSysMenu" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="MENU_ID" property="menuId" jdbcType="VARCHAR" />
+    <result column="PARENT_ID" property="parentId" jdbcType="VARCHAR" />
+    <result column="NAME" property="name" jdbcType="VARCHAR" />
+    <result column="DESCRIPTION" property="description" jdbcType="VARCHAR" />
+    <result column="ACTION" property="action" jdbcType="VARCHAR" />
+    <result column="TYPE" property="type" jdbcType="INTEGER" />
+    <result column="RESOURCE_ID" property="resourceId" jdbcType="VARCHAR" />
+    <result column="STATE" property="state" jdbcType="INTEGER" />
+    <result column="STATE_DATE" property="stateDate" jdbcType="DATE" />
+    <result column="MENU_XH" property="menuXh" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

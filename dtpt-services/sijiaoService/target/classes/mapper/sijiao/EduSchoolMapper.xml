@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.sijiao.EduSchoolMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.sijiao.EduSchool" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="SCHOOL_ID" property="schoolId" jdbcType="VARCHAR" />
+    <result column="NAME" property="name" jdbcType="VARCHAR" />
+    <result column="AS_NAME" property="asName" jdbcType="VARCHAR" />
+    <result column="TEL_PHONE" property="telPhone" jdbcType="VARCHAR" />
+    <result column="MASTER" property="master" jdbcType="VARCHAR" />
+    <result column="MASTER_PHONE" property="masterPhone" jdbcType="VARCHAR" />
+    <result column="INFO" property="info" jdbcType="VARCHAR" />
+    <result column="ADDRESS" property="address" jdbcType="VARCHAR" />
+    <result column="EDIT_DATE" property="editDate" jdbcType="DATE" />
+    <result column="USER_ID" property="userId" jdbcType="VARCHAR" />
+    <result column="COMMON" property="common" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.common.TbSolutionMenuMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.common.TbSolutionMenu" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="SOLUTION_MENU_ID" property="solutionMenuId" jdbcType="VARCHAR" />
+    <result column="SOLUTION_ID" property="solutionId" jdbcType="VARCHAR" />
+    <result column="MENU_ID" property="menuId" jdbcType="VARCHAR" />
+    <result column="AS_NAME" property="asName" jdbcType="VARCHAR" />
+    <result column="EDIT_DATE" property="editDate" jdbcType="DATE" />
+    <result column="PARENT_ID" property="parentId" jdbcType="VARCHAR" />
+    <result column="MENU_TYPE" property="menuType" jdbcType="INTEGER" />
+    <result column="MENU_XH" property="menuXh" jdbcType="INTEGER" />
+    <result column="COMMON" property="common" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

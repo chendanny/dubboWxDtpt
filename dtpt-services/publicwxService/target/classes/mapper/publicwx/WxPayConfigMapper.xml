@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.publicwx.WxPayConfigMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.publicwx.WxPayConfig" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="WX_PAY_CID" property="wxPayCid" jdbcType="VARCHAR" />
+    <result column="USER_ID" property="userId" jdbcType="VARCHAR" />
+    <result column="PUBLIC_ID" property="publicId" jdbcType="VARCHAR" />
+    <result column="WXFW_ID" property="wxfwId" jdbcType="VARCHAR" />
+    <result column="APP_ID" property="appId" jdbcType="VARCHAR" />
+    <result column="CONFIG_TYPE" property="configType" jdbcType="INTEGER" />
+    <result column="PAY_TYPE" property="payType" jdbcType="INTEGER" />
+    <result column="PAY_TOOL" property="payTool" jdbcType="INTEGER" />
+    <result column="MCH_ID" property="mchId" jdbcType="VARCHAR" />
+    <result column="PAY_ACCOUNT" property="payAccount" jdbcType="VARCHAR" />
+    <result column="PASS_W" property="passW" jdbcType="VARCHAR" />
+    <result column="BANK_TYPE" property="bankType" jdbcType="VARCHAR" />
+    <result column="BANK_NAME" property="bankName" jdbcType="VARCHAR" />
+    <result column="BANK_NO" property="bankNo" jdbcType="VARCHAR" />
+    <result column="BANK_OWNER" property="bankOwner" jdbcType="VARCHAR" />
+    <result column="BANK_OWNER_PHONE" property="bankOwnerPhone" jdbcType="VARCHAR" />
+    <result column="IS_PROXY_APPL" property="isProxyAppl" jdbcType="INTEGER" />
+    <result column="C_STATE" property="cState" jdbcType="INTEGER" />
+    <result column="SH_KEY" property="shKey" jdbcType="VARCHAR" />
+    <result column="SIGN_TYPE" property="signType" jdbcType="INTEGER" />
+    <result column="CREATE_DATE" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="EDIT_DATE" property="editDate" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

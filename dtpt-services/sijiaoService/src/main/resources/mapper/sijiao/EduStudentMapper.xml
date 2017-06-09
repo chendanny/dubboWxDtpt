@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.sijiao.EduStudentMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.sijiao.EduStudent" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="STUDENT_ID" property="studentId" jdbcType="VARCHAR" />
+    <result column="ADD_USER" property="addUser" jdbcType="VARCHAR" />
+    <result column="WX_OPENID" property="wxOpenid" jdbcType="VARCHAR" />
+    <result column="STUDENT_NAME" property="studentName" jdbcType="VARCHAR" />
+    <result column="SEX" property="sex" jdbcType="INTEGER" />
+    <result column="BIRTHDAY" property="birthday" jdbcType="DATE" />
+    <result column="PHONE" property="phone" jdbcType="VARCHAR" />
+    <result column="IS_INSCHOOL" property="isInschool" jdbcType="INTEGER" />
+    <result column="IN_GRADE" property="inGrade" jdbcType="INTEGER" />
+    <result column="IN_SCHOOL" property="inSchool" jdbcType="VARCHAR" />
+    <result column="IN_SCORE" property="inScore" jdbcType="VARCHAR" />
+    <result column="HIGHEST_EDU" property="highestEdu" jdbcType="INTEGER" />
+    <result column="QQ" property="qq" jdbcType="DECIMAL" />
+    <result column="PROVINCE" property="province" jdbcType="VARCHAR" />
+    <result column="CITY" property="city" jdbcType="VARCHAR" />
+    <result column="AREA" property="area" jdbcType="VARCHAR" />
+    <result column="ADDRESS" property="address" jdbcType="VARCHAR" />
+    <result column="USER_ID" property="userId" jdbcType="VARCHAR" />
+    <result column="ZIP_CODE" property="zipCode" jdbcType="VARCHAR" />
+    <result column="EDIT_DATE" property="editDate" jdbcType="DATE" />
+    <result column="COMMON" property="common" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

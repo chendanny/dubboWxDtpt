@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.common.TbUserSolutionMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.common.TbUserSolution" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="USER_SID" property="userSid" jdbcType="VARCHAR" />
+    <result column="SOLUTION_ID" property="solutionId" jdbcType="VARCHAR" />
+    <result column="USER_ID" property="userId" jdbcType="VARCHAR" />
+    <result column="START_DATE" property="startDate" jdbcType="DATE" />
+    <result column="END_DATE" property="endDate" jdbcType="DATE" />
+    <result column="IS_TEST" property="isTest" jdbcType="INTEGER" />
+    <result column="IS_OVER" property="isOver" jdbcType="INTEGER" />
+    <result column="FEE" property="fee" jdbcType="DECIMAL" />
+    <result column="USE_LIFE" property="useLife" jdbcType="INTEGER" />
+    <result column="CREATE_DATE" property="createDate" jdbcType="DATE" />
+    <result column="COMMON" property="common" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

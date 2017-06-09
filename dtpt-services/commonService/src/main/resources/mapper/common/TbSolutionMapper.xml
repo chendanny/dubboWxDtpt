@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.common.TbSolutionMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.common.TbSolution" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="SOLUTION_ID" property="solutionId" jdbcType="VARCHAR" />
+    <result column="SOLUTION_NAME" property="solutionName" jdbcType="VARCHAR" />
+    <result column="SOLUTION_GRADE" property="solutionGrade" jdbcType="INTEGER" />
+    <result column="LOGO" property="logo" jdbcType="VARCHAR" />
+    <result column="DES" property="des" jdbcType="VARCHAR" />
+    <result column="SOLUTION_TYPE" property="solutionType" jdbcType="INTEGER" />
+    <result column="SUB_TYPE" property="subType" jdbcType="INTEGER" />
+    <result column="SHOW_TYPE" property="showType" jdbcType="INTEGER" />
+    <result column="IS_FREE" property="isFree" jdbcType="INTEGER" />
+    <result column="USE_LIFE" property="useLife" jdbcType="INTEGER" />
+    <result column="SOLUTION_FEE" property="solutionFee" jdbcType="DECIMAL" />
+    <result column="DISCOUNT_RULE" property="discountRule" jdbcType="VARCHAR" />
+    <result column="EDIT_DATE" property="editDate" jdbcType="DATE" />
+    <result column="COMMON" property="common" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

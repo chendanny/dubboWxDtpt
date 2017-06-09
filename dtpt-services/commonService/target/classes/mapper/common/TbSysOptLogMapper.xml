@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.common.TbSysOptLogMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.common.TbSysOptLog" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="LOG_ID" property="logId" jdbcType="VARCHAR" />
+    <result column="USER_ID" property="userId" jdbcType="VARCHAR" />
+    <result column="USER_NAME" property="userName" jdbcType="VARCHAR" />
+    <result column="FUNC" property="func" jdbcType="VARCHAR" />
+    <result column="PARAMS" property="params" jdbcType="VARCHAR" />
+    <result column="CALL_TIME" property="callTime" jdbcType="DATE" />
+    <result column="COST_TIME" property="costTime" jdbcType="INTEGER" />
+    <result column="EXE_SQL" property="exeSql" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

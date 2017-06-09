@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dt.dtpt.mybatis.mapper.publicwx.WxPublicMapper">
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.publicwx.WxPublic">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="PUBLIC_ID" jdbcType="VARCHAR" property="publicId" />
+    <result column="USER_ID" jdbcType="VARCHAR" property="userId" />
+    <result column="PUBLIC_NAME" jdbcType="VARCHAR" property="publicName" />
+    <result column="WX_ACCOUNT" jdbcType="VARCHAR" property="wxAccount" />
+    <result column="WX_OPENID" jdbcType="VARCHAR" property="wxOpenid" />
+    <result column="PUBLIC_TYPE" jdbcType="INTEGER" property="publicType" />
+    <result column="IS_APPLY" jdbcType="INTEGER" property="isApply" />
+    <result column="UNIQUE_CHAR" jdbcType="VARCHAR" property="uniqueChar" />
+    <result column="ENCRIY_CHAR" jdbcType="VARCHAR" property="encriyChar" />
+    <result column="SOLUTION_TYPE" jdbcType="INTEGER" property="solutionType" />
+    <result column="IS_SELF" jdbcType="INTEGER" property="isSelf" />
+    <result column="EDIT_DATE" jdbcType="TIMESTAMP" property="editDate" />
+    <result column="COMMON" jdbcType="VARCHAR" property="common" />
+    <result column="APP_ID" jdbcType="VARCHAR" property="appId" />
+    <result column="APP_SECRET" jdbcType="VARCHAR" property="appSecret" />
+    <result column="WXFW_ID" jdbcType="VARCHAR" property="wxfwId" />
+    <result column="WX_TOKEN" jdbcType="VARCHAR" property="wxToken" />
+    <result column="ACCESS_TOKEN" jdbcType="VARCHAR" property="accessToken" />
+    <result column="TOKEN_START_TIME" jdbcType="TIMESTAMP" property="tokenStartTime" />
+    <result column="EXPIRES_IN" jdbcType="INTEGER" property="expiresIn" />
+    <result column="WX_EMAIL" jdbcType="VARCHAR" property="wxEmail" />
+  </resultMap>
+</mapper>

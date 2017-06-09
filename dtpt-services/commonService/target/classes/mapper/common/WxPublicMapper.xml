@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.common.WxPublicMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.common.WxPublic" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="PUBLIC_ID" property="publicId" jdbcType="VARCHAR" />
+    <result column="ID" property="id" jdbcType="VARCHAR" />
+    <result column="PUBLIC_NAME" property="publicName" jdbcType="VARCHAR" />
+    <result column="WX_ACCOUNT" property="wxAccount" jdbcType="VARCHAR" />
+    <result column="WX_OPENID" property="wxOpenid" jdbcType="VARCHAR" />
+    <result column="PUBLIC_TYPE" property="publicType" jdbcType="INTEGER" />
+    <result column="IS_APPLY" property="isApply" jdbcType="INTEGER" />
+    <result column="UNIQUE_CHAR" property="uniqueChar" jdbcType="VARCHAR" />
+    <result column="ENCRIY_CHAR" property="encriyChar" jdbcType="VARCHAR" />
+    <result column="SOLUTION_TYPE" property="solutionType" jdbcType="INTEGER" />
+    <result column="IS_SELF" property="isSelf" jdbcType="INTEGER" />
+    <result column="EDIT_DATE" property="editDate" jdbcType="DATE" />
+    <result column="COMMON" property="common" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

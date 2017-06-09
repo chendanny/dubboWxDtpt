@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.common.TbSysUserMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.common.TbSysUser" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="USER_ID" property="userId" jdbcType="VARCHAR" />
+    <result column="USERNAME" property="username" jdbcType="VARCHAR" />
+    <result column="PASSWORD" property="password" jdbcType="VARCHAR" />
+    <result column="STATE_DATE" property="stateDate" jdbcType="DATE" />
+    <result column="NAME" property="name" jdbcType="VARCHAR" />
+    <result column="SEX" property="sex" jdbcType="INTEGER" />
+    <result column="MOBILE_NBR" property="mobileNbr" jdbcType="VARCHAR" />
+    <result column="EMAIL_ADDR" property="emailAddr" jdbcType="VARCHAR" />
+    <result column="WX_UNIONID" property="wxUnionid" jdbcType="VARCHAR" />
+    <result column="PHONE_NBR" property="phoneNbr" jdbcType="VARCHAR" />
+    <result column="STATE" property="state" jdbcType="INTEGER" />
+    <result column="LOGIN_STATE" property="loginState" jdbcType="INTEGER" />
+    <result column="WX_ACCOUNT" property="wxAccount" jdbcType="VARCHAR" />
+    <result column="QQ" property="qq" jdbcType="VARCHAR" />
+    <result column="AS_NAME" property="asName" jdbcType="VARCHAR" />
+    <result column="LOGO" property="logo" jdbcType="VARCHAR" />
+    <result column="IN_CITY" property="inCity" jdbcType="VARCHAR" />
+    <result column="EDIT_DATE" property="editDate" jdbcType="DATE" />
+    <result column="COMMON" property="common" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

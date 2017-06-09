@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.common.TbSysDataMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.common.TbSysData" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="DATA_ID" property="dataId" jdbcType="VARCHAR" />
+    <result column="DATA_NAME" property="dataName" jdbcType="VARCHAR" />
+    <result column="DATA_CODE" property="dataCode" jdbcType="VARCHAR" />
+    <result column="DATA_PID" property="dataPid" jdbcType="VARCHAR" />
+    <result column="DATA_XH" property="dataXh" jdbcType="INTEGER" />
+    <result column="COMMON" property="common" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

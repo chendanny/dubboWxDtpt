@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.sijiao.EduSchoolPhotosMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.sijiao.EduSchoolPhotos" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="PHOTO_ID" property="photoId" jdbcType="VARCHAR" />
+    <result column="PHOTO_NAME" property="photoName" jdbcType="VARCHAR" />
+    <result column="PHOTO_INFO" property="photoInfo" jdbcType="VARCHAR" />
+    <result column="SOURCE_ID" property="sourceId" jdbcType="VARCHAR" />
+    <result column="SOURCE_NAME" property="sourceName" jdbcType="VARCHAR" />
+    <result column="ACTIVE_ID" property="activeId" jdbcType="VARCHAR" />
+    <result column="ACTIVE_NAME" property="activeName" jdbcType="VARCHAR" />
+    <result column="PHOTO_PICS" property="photoPics" jdbcType="VARCHAR" />
+    <result column="PHOTO_NAMES" property="photoNames" jdbcType="VARCHAR" />
+    <result column="USER_ID" property="userId" jdbcType="VARCHAR" />
+    <result column="EDIT_DATE" property="editDate" jdbcType="DATE" />
+    <result column="COMMON" property="common" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

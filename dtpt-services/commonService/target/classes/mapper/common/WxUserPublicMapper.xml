@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.common.WxUserPublicMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.common.WxUserPublic" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="USER_PWX_ID" property="userPwxId" jdbcType="VARCHAR" />
+    <result column="PUBLIC_ID" property="publicId" jdbcType="VARCHAR" />
+    <result column="ID" property="id" jdbcType="VARCHAR" />
+    <result column="STATE" property="state" jdbcType="INTEGER" />
+    <result column="ADD_DATE" property="addDate" jdbcType="DATE" />
+    <result column="REMOVE_DATE" property="removeDate" jdbcType="DATE" />
+  </resultMap>
+</mapper>

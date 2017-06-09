@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dt.dtpt.mybatis.mapper.sijiao.EduActiveMapper" >
+  <resultMap id="BaseResultMap" type="com.dt.dtpt.mybatis.model.sijiao.EduActive" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="ACTIVE_ID" property="activeId" jdbcType="VARCHAR" />
+    <result column="SCHOOL_ID" property="schoolId" jdbcType="VARCHAR" />
+    <result column="ACTIVE_TITLE" property="activeTitle" jdbcType="VARCHAR" />
+    <result column="ACTIVE_SUBJECT" property="activeSubject" jdbcType="VARCHAR" />
+    <result column="ACTIVE_SUBJECT_SUB" property="activeSubjectSub" jdbcType="VARCHAR" />
+    <result column="START_DATE" property="startDate" jdbcType="DATE" />
+    <result column="END_DATE" property="endDate" jdbcType="DATE" />
+    <result column="ADDRESS" property="address" jdbcType="VARCHAR" />
+    <result column="LEADER" property="leader" jdbcType="VARCHAR" />
+    <result column="LEADER_PHONE" property="leaderPhone" jdbcType="VARCHAR" />
+    <result column="ACTIVE_INFO" property="activeInfo" jdbcType="VARCHAR" />
+    <result column="MAX_STUDENTS" property="maxStudents" jdbcType="DECIMAL" />
+    <result column="PUBLICER" property="publicer" jdbcType="VARCHAR" />
+    <result column="PUBLICER_AS_NAME" property="publicerAsName" jdbcType="VARCHAR" />
+    <result column="ACTIVE_JF" property="activeJf" jdbcType="DECIMAL" />
+    <result column="PUBLIC_DATE" property="publicDate" jdbcType="DATE" />
+    <result column="USER_ID" property="userId" jdbcType="VARCHAR" />
+    <result column="EDIT_DATE" property="editDate" jdbcType="DATE" />
+    <result column="COMMON" property="common" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
